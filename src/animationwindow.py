@@ -12,7 +12,7 @@ class AnimationView(QWidget):
 
         self.ui.play_anim_button.clicked.connect(self.play_animation)
         self.ui.animation_display_area.setText("Click 'Play Animation' to start the animation preview")
-        self.ui.animation_display_area.setStyleSheet("background-color:#696969;")
+        self.ui.animation_display_area.setStyleSheet("background-color:#00ff00;")
         
         self.animframes = []
         self.anim_names = {}
